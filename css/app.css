@@ -1,38 +1,19 @@
+
+body{background-color: #000000;
+  font-family: 'Shadows Into Light', cursive;
+  color: #FFFAF0;
+}
 /*name*/
-h1{font-family: cursive;}
+h1{font-family: 'Shadows Into Light', cursive;
+color: #FFFAF0;
+}
 
 /* selector {property:value;}*/
 h1{text-align: center;}
-.container {
+/*.container {
     display: inline-block;
     cursor: pointer;
-}
-/*hamburger icon starts*/
-.bar1, .bar2, .bar3 {
-    width: 35px;
-    height: 5px;
-    background-color: #333;
-    margin: 6px 0;
-    transition: 0.4s;
-}
-
-/* Rotate first bar */
-.change .bar1 {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-    transform: rotate(-45deg) translate(-9px, 6px) ;
-}
-
-/* Fade out the second bar */
-.change .bar2 {
-    opacity: 0;
-}
-
-/* Rotate last bar */
-.change .bar3 {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-    transform: rotate(45deg) translate(-8px, -8px) ;
-}
-/*hamburger icon ends*/
+}*/
 
 
 /*sliding images starts*/
@@ -81,7 +62,7 @@ h1{text-align: center;}
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
+  bottom: -800px;
   width: 100%;
   text-align: center;
 }
@@ -131,9 +112,83 @@ h1{text-align: center;}
 /*sliding images ends*/
 
 /*feedback*/
-.feadbackform{padding: 100px;}
-.tealbg{background-color: teal;}
+.feadbackform{padding: 100px;
+font-family: 'Shadows Into Light', cursive;
+color:#FFFAF0;  }
 
+h2{font-family:'Shadows Into Light', cursive; }
+.fill{font-family:'Shadows Into Light', cursive;
+font-size: 18px;
+}
+.name{font-family:'Shadows Into Light', cursive;
+font-size: 18px;
+color:#8B0000;}
+.email{font-family:'Shadows Into Light', cursive;
+font-size: 18px;
+color:#8B0000;}
+.comment{font-family:'Shadows Into Light', cursive;
+font-size: 18px;
+color:#8B0000;}
+
+/*bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    border: 1px solid #e7e7e7;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #FFFAF0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: 	#808080;
+}
+.active {
+    background-color: 	#8B0000;
+}
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #FFFAF0;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+/*about page*/
+.mainnavigation{color:#FFFAF0;
+font-family:'Shadows Into Light', cursive;
+font-size: 25px;
+float: left;}
+img{margin: 25px;
+    display: inline-block;
+  float: left;}
+
+
+  .greeting {
+  font-weight: 600;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFFAF0;
+  font-size: 100px;
+}
 
 #indexpage .mainnavigation li:nth-child(1) {background-color: yellow;}
 #portfoliopage .mainnavigation li:nth-child(2) {background-color: yellow;}
