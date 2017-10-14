@@ -112,7 +112,7 @@ h1{text-align: center;}
 /*sliding images ends*/
 
 /*feedback*/
-.feadbackform{padding: 100px;
+.feadbackform{
 font-family: 'Shadows Into Light', cursive;
 color:#FFFAF0;  }
 
@@ -179,17 +179,20 @@ img{margin: 25px;
     display: inline-block;
   float: left;}
 
-
+/*greeting*/
   .greeting {
   font-weight: 600;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  color: #FFFAF0;
-  font-size: 100px;
+  color: #8B0000;
+  font-size: 50px;
 }
+
+
 
 #indexpage .mainnavigation li:nth-child(1) {background-color: yellow;}
 #portfoliopage .mainnavigation li:nth-child(2) {background-color: yellow;}
 #aboutpage .mainnavigation li:nth-child(3) {background-color: yellow;}
+#public .mainnavigation li:nth-child(4) {background-color: yellow;}

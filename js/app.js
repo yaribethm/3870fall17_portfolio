@@ -1,8 +1,5 @@
 $(document).foundation();
-/*hamburger icon*/
-function myFunction(x) {
-    x.classList.toggle("change");
-}
+
 
 var thehours = new Date().getHours();
 	var themessage;
@@ -49,6 +46,6 @@ function showSlides(n) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
   slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
+  dots[slideIndex-1].className += "active";
 }
 /*date*/
