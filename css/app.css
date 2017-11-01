@@ -1,11 +1,72 @@
 
-body{background-color: #000000;
+body{
   font-family: 'Shadows Into Light', cursive;
   color: #FFFAF0;
 }
+/*bar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+    border: 1px solid #e7e7e7;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #FFFAF0;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color:  #870804;;
+}
+.active {
+    background-color: 	#8B0000;
+}
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+    border-right: 1px solid #FFFAF0;
+}
+
+li:last-child {
+    border-right: none;
+}
+/*ends bar*/
+/*home page*/
+/*greeting*/
+  .greeting {
+  font-weight: 600;
+  /*position: absolute;*/
+  /*left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);*/
+  color:  #870804;
+  font-size: 100px;
+}
+/*ends home page*/
+
+
+
+
+
+
+
+
+
 /*name*/
 h1{font-family: 'Shadows Into Light', cursive;
-color: #FFFAF0;
+color: #A52A2A;
 }
 
 /* selector {property:value;}*/
@@ -156,7 +217,7 @@ li a {
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: 	#808080;
+    background-color:  #870804;;
 }
 .active {
     background-color: 	#8B0000;
@@ -182,12 +243,12 @@ img{margin: 25px;
 /*greeting*/
   .greeting {
   font-weight: 600;
-  position: absolute;
-  left: 50%;
+  /*position: absolute;*/
+  /*left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
-  color: #8B0000;
-  font-size: 50px;
+  transform: translate(-50%, -50%);*/
+  color:  #870804;
+  font-size: 100px;
 }
 
 
